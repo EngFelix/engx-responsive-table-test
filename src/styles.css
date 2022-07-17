@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+table {
+  border-collapse: collapse;
+}
+
+table tr > th {
+  border: 1px solid black;
+}
+table tr > td {
+  border: 1px solid black;
+}
+
+.fa-toggle-right:before {
+  content: "▷\00a0";
+}
+
+.fa-toggle-down:before {
+  content: "▽\00a0";
+}
