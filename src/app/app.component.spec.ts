@@ -16,16 +16,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title '@engx/engx-responsive-table-test'`, () => {
+  it(`should have as title 'Responsive Table Test'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('@engx/engx-responsive-table-test');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('@engx/engx-responsive-table-test app is running!');
+    expect(app.title).toEqual('Responsive Table Test');
   });
 });
